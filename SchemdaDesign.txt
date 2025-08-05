@@ -1,0 +1,1 @@
+This will be a (likely txt) file with all of the schema drawn from the entity relation diagram

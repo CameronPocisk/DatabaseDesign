@@ -1,0 +1,4 @@
+This should be a .sql File that will 
+have my database, 
+and the queries I made to make the tables 
+and insert data
