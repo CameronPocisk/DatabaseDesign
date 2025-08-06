@@ -1,1 +1,6 @@
-This will be a (likely txt) file with all of the schema drawn from the entity relation diagram
+Customers(Pk(cuId), fullName, email, address, phone)
+CreditCards(Pk(digits), cvv, expirationDate)
+Products(Pk(prId), name, cost, description, seller)
+
+OwnedBy(Pk(cuId, digits), Fk(cuId), Fk(digits))
+Purchase(Pk(puId), Fk(cuId), Fk(prId), Fk(digits), date)
