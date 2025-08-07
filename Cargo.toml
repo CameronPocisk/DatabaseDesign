@@ -1,0 +1,11 @@
+# Build Tool for rust
+# Just has minimum build reqs for now
+
+[package]
+name = "my_project"
+version = "0.1.0"
+edition = "2021"
+
+# Optional: description, authors, etc.
+
+[dependencies]
