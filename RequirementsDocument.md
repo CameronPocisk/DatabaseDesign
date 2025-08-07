@@ -64,11 +64,6 @@ The goal of this e-commerce system is to provide a platform where customers can 
 
 ### **Use Case 1: Register a Customer**
 - **Description**: A new user creates an account on the platform by providing their full name, email, address, and phone number.
-- **Steps**:
-  1. Customer navigates to the registration page.
-  2. Customer enters their personal details.
-  3. System validates the input (e.g., ensuring unique email).
-  4. Customer is created in the system.
 
 - **Outcome**: A new customer is registered in the system.
 
@@ -76,10 +71,6 @@ The goal of this e-commerce system is to provide a platform where customers can 
 
 ### **Use Case 2: Browse Products**
 - **Description**: A customer browses products available for purchase.
-- **Steps**:
-  1. Customer logs into the system (optional).
-  2. Customer views the list of products, filtered by price, name, or seller.
-  3. Customer can view detailed descriptions of the products.
 
 - **Outcome**: The customer can view product information retrieved from the system.
 
@@ -87,24 +78,13 @@ The goal of this e-commerce system is to provide a platform where customers can 
 
 ### **Use Case 3: Add Credit Card**
 - **Description**: A customer adds one or more credit cards to their account for future purchases.
-- **Steps**:
-  1. Customer logs into their account.
-  2. Customer navigates to the payment methods page.
-  3. Customer enters their credit card details (card number, CVV, expiration date).
-  4. System validates and securely stores the credit card details, associating it with the customer's account.
-
+  
 - **Outcome**: The credit card is added to the system and linked to the customer.
 
 ---
 
 ### **Use Case 4: Make a Purchase**
 - **Description**: A customer selects a product, adds it to the cart, selects a payment method (credit card), and completes the purchase.
-- **Steps**:
-  1. Customer browses products and selects one.
-  2. Customer adds the product to their cart.
-  3. Customer selects a credit card from the available cards.
-  4. Customer confirms the purchase.
-  5. System generates a new record in the Purchase table with the customer's ID, the selected credit card, and the purchased product.
 
 - **Outcome**: A new purchase is recorded, and the inventory or product stock is updated accordingly.
 
@@ -112,23 +92,11 @@ The goal of this e-commerce system is to provide a platform where customers can 
 
 ## **3. Non-Functional Requirements**
 
-### **Security:**
-- Credit card information must be encrypted to ensure that sensitive data is protected.
-- Access to personal data (e.g., customer details) should be restricted to authorized users only.
-
 ### **Scalability:**
 - The system should be able to handle a large number of customers, products, and transactions simultaneously.
-- It should support high availability during peak shopping times (e.g., Black Friday).
 
 ### **Performance:**
 - The system should respond quickly to user actions, such as loading product pages or processing transactions.
 
 ### **Usability:**
-- The interface should be user-friendly, allowing customers to easily browse products, manage their accounts, and make purchases.
-
----
-
-## **4. Deliverables**
-
-- **Document**: Requirements document in PDF format, detailing the data requirements, use cases, non-functional requirements, and system behavior.
-- **Functional Overview**: Clear description of the system flow for different user interactions (browsing, registering, and purchasing).
+- The console interface should be user-friendly, allowing customers to easily browse products, manage their accounts, and make purchases.
