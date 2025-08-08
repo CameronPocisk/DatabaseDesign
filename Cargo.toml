@@ -9,3 +9,6 @@ edition = "2021"
 # Optional: description, authors, etc.
 
 [dependencies]
+# diesel = { version = "2.2.12", features = ["sqlite"] }
+dotenv = "0.15.0"
+mysql = "26.0.1"
